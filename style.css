@@ -46,6 +46,5 @@ footer{
   /* display: inline; */
   display: flex;
   justify-content: space-around;
-.foot {
-  margin: 5px;
+
 }
