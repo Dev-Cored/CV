@@ -1,13 +1,12 @@
 body {
   margin: 0px;
-  width: 100px;
+  width: 100vw;
   font-size: 30px;
-
-  background-image: url('img_for_background.jpg');
-  background-repeat: no-repeat;
+  background-image: url(img_for_background.jpg);
+  background-repeat: repeat;
   background-position: center center;
   background-attachment: fixed;
-  height: 2440px;  
+  height: 100vh;
   }
 
 .main_head {
@@ -36,13 +35,17 @@ body {
 
 footer{
   height: 15vh;
-  background: rgb(20, 2, 2);
-  width: 89.5%;
-  margin-left: 176px;
+  background: rgb(4, 30, 102);
+  width: 100vw;
+  /* margin-left: 176px; */
   padding: 20px 0;
-  border-bottom: 3px solid rgb(33, 31, 31);
-  border-right: 3px solid rgb(33, 31, 31);
-  border-left: 3px solid rgb(33, 31, 31);
-  position: relative;
-  display: inline;
+  /* border-bottom: 3px solid; */
+  /* border-right: 3px solid; */
+  /* border-left: 3px solid; */
+  /* position: relative; */
+  /* display: inline; */
+  display: flex;
+  justify-content: space-around;
+.foot {
+  margin: 5px;
 }
